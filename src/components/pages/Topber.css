@@ -1,0 +1,100 @@
+.topbercontainer{
+    height: 60px;
+    width:100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    
+}
+.image{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border: 3px solid black;
+   
+}
+.topberleft{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+}
+.topberleft{
+    flex: 3;
+}
+
+.topbercenter{
+    flex: 5;
+    align-items: start;
+    justify-content: start;
+}
+.topberright{
+    flex: 4;
+    color: white;
+}
+.topbericon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topbericonbadge{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+    color: white;
+    position: absolute;
+    top:-5px;
+    right:-5px;
+    
+}
+.searchinput{
+    border: none;
+
+}
+.searchicon{
+
+    font-size: 20px !important;
+    margin-left: 10px ;
+}
+.searchber{
+   height:30px;
+   width: 100%;
+   background-color: white;
+   border-radius: 30px;
+   display: flex;
+   align-items: center;
+
+ 
+}
+.searchinput {
+  width: 70%;
+  border: none;
+}
+.searchinput:focus{
+    outline: none;
+}
+.topbericonitem{
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.image{
+    cursor: pointer;
+}
+.srk{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}

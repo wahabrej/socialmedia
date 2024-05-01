@@ -1,0 +1,52 @@
+.sideber{
+   flex:2;
+   margin-top: 15px;
+    height: 100vh;
+    
+}
+
+
+
+.sideberListItem {
+ list-style-type: none;
+margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  
+
+}
+.sideberIcon {
+  margin-right: 9px;
+}
+
+.sidberbutton{
+  width: 100px;
+  height: 30px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.sidberhr{
+    width: 150px;
+    margin-left: 10px;
+}
+.sideberfriend{
+   list-style-type: none;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+    
+}
+.friendimg{
+    height: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 10px;
+}
