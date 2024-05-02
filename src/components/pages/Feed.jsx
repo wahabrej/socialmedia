@@ -1,9 +1,25 @@
 import React from 'react'
-import './Sideber.css'
+import './Feed.css'
+import Share from './Share'
+import Post from './Post'
+import { data } from './data';
 export default function Feed() {
   return (
     <div className='feed'>
-        <h1>Feed</h1>
+
+      <div className="feedwrapper">
+        <Share />
+        {/* {data.map((p) => (
+
+          <Post key={p.id} data={p} />
+        ))} */}
+
+
+        {data.map((p) => (
+          <Post key={p.id} data={p} />
+        ))};
+
+      </div>
     </div>
   )
 }

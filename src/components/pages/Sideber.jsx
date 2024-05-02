@@ -59,7 +59,46 @@ export default function Sideber() {
             <ul className="sidberfriendlist">
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
                     <spane className="friendname">Karim</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Rahim</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Samad</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Farhan</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Wahab</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Sohan</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Karim</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Arefin</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <span className="active">.</span>
+                    <spane className="friendname">Didar</spane>
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
@@ -71,7 +110,23 @@ export default function Sideber() {
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
-                    <spane className="friendname">Karim</spane>
+                    <spane className="friendname">Rahim</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Samad</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Farhan</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Wahab</spane>
+                </li>
+                <li className="sideberfriend">
+                    <img className='friendimg' src={srk} alt="" />
+                    <spane className="friendname">Sohan</spane>
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
@@ -79,19 +134,11 @@ export default function Sideber() {
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
-                    <spane className="friendname">Karim</spane>
+                    <spane className="friendname">Arefin</spane>
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />
-                    <spane className="friendname">Karim</spane>
-                </li>
-                <li className="sideberfriend">
-                    <img className='friendimg' src={srk} alt="" />
-                    <spane className="friendname">Karim</spane>
-                </li>
-                <li className="sideberfriend">
-                    <img className='friendimg' src={srk} alt="" />
-                    <spane className="friendname">Karim</spane>
+                    <spane className="friendname">Didar</spane>
                 </li>
                 <li className="sideberfriend">
                     <img className='friendimg' src={srk} alt="" />

@@ -1,4 +1,105 @@
 .rightber{
-    flex: 4;
+    flex: 2;
+    height: calc(100vh - 50px);
+    top: 50px;
+    overflow-y: scroll;
+    position: sticky;
+    margin-left: 12px;
    
+} 
+ 
+ ::-webkit-scrollbar {
+     width: 5px;
+   }
+   
+   /* Track */
+   ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 5px grey;
+     border-radius: 10px;
+ 
+ }
+   
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+     background: rgb(111, 103, 103);
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+ }
+ 
+.birthdayimg{
+    width: 40px;
+    height: 40px;
+   
+ margin-right: 10px;
+}
+.rightberwrapper{
+    padding:20px 20px 0 0 ;
+}
+.birthdaytext{
+    font-size: 15px;
+    font-weight: 300;
+}
+.birthdaycontainer{
+    display: flex;
+    align-items: center;
+}
+.onlinefriendimagetext{
+    position: relative;
+}
+
+.onlinefriendactive{
+  background-color: rgb(59, 240, 14);
+  width: 12px;
+  height: 12px;
+  border-radius: 60%;
+  color: white;
+  position: absolute;
+  left: 30px;
+  top: -4px;
+
+}
+.onlinefriendimagetext{
+    display: flex;
+    align-items: center;
+}
+
+.onlinefriendimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 12px;
+}
+.rightberfriendlistItem{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.onlinefriend{
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+    text-align: start;
+    padding: 10px;
+    font-size: 40;
+}
+
+
+.rightberaddimg{
+    justify-content: start;
+    align-items: center;
+    justify-items: start;
+    text-align: start;
+    padding: 10px;
+
+}
+
+.onlinefriend{
+    font-size: 20px;
+    font-weight: 500;
 }
